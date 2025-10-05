@@ -11,10 +11,10 @@ body, html{
 .header{
     background-color:#1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0px;
-    padding: 8px;
+    padding: 8px 350px;
 
 }
 
@@ -55,7 +55,8 @@ ul{
     background-color: #1F2937;
     justify-content: space-around;
     flex: 1;
-    padding: 8px;
+    padding: 100px 350px; 
+    align-items: center;
     
 }
 
@@ -68,7 +69,23 @@ ul{
 .greetings .text {
     font-size: 18px;
     color: #E5E7EB;
-    width: 400px;
+    /* width: 500px; */
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: 1;
+    flex: 1;
+}
+
+.greetings button{
+    width: 100px;
+    padding: 8px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: 10px;
 }
 
 .footer{
@@ -85,17 +102,29 @@ ul{
 
 img{
     height: 200px;
+    width: 400px;
 }
 
 .img{
     padding: 8px;
+    height: 200px;
+    /* width: 400px; */
+    background-color: black;
     display: flex;
+    flex: 1;
 }
 
 .info{
     justify-content: space-around;
     display: flex;
     flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
 }
 
 .quote{
@@ -108,5 +137,38 @@ img{
     justify-content: space-around;
     display: flex;
     flex: 1;
+}
+
+.card{
+    width: 200px;
+    border-radius: 25px;
+    border: 4px solid #3882F6;
+    padding: 0px;
+    height: 200px;
+}
+
+.subinfo{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 40px;
+    margin: 8px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 21px;
+}
+
+.text2{
+    text-align: center;
+    padding: 8px;
+}
+
+.title2{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
